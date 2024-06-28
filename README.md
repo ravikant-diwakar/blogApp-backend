@@ -1,24 +1,28 @@
-# Blog Backend App
+# BlogApp Backend
 
-This is a simple Blog Backend application built using Node.js, Express, and MongoDB. It supports creating posts, adding comments, and liking/unliking posts. 
+Simple Blog Backend application built using Node.js, Express, and MongoDB. It supports creating posts, adding comments, and liking/unliking posts. 
 
 ## Folder Structure
 
 ```
--config
- - database.js
--controllers
- - commentController.js
- - likeController.js
- - postController.js
--models
- - commentModel.js
- - likeModel.js
- - postModel.js
--routes
- - blog.js
--.env
--index.js
+/blogapp-backend
+├── config
+│   └── database.js
+├── controllers
+│   ├── commentController.js
+│   ├── likeController.js
+│   └── postController.js
+├── models
+│   ├── commentModel.js
+│   ├── likeModel.js
+│   └── postModel.js
+├── routes
+│   └── blog.js
+├── .env
+├── package.json
+├── package-lock.json
+└── index.js
+
 ```
 
 ## Getting Started
@@ -32,7 +36,7 @@ Make sure you have Node.js and MongoDB installed on your machine.
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/blog-backend-app.git
+   git clone https://github.com/ravikant-diwakar/blogApp-backend
    ```
 
 2. Navigate to the project directory
